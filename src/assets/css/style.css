@@ -8805,7 +8805,7 @@ body.fixed-header .page {
 
 .panel-title1 a {
     display: block;
-    color: #fff !important;
+    color: #fff;
     padding: 15px;
     position: relative;
     font-size: 14px;
@@ -8853,6 +8853,7 @@ body.fixed-header .page {
     font-size: 15px;
     transition: all 0.5s;
     transform: scale(1);
+    margin-top: 5px;
 }
 
 .panel-heading1 a:before {
@@ -8864,6 +8865,7 @@ body.fixed-header .page {
     font-size: 15px;
     transition: all 0.5s;
     transform: scale(1);
+    margin-top: 5px;
 }
 
 .panel-heading1.active a:before {
@@ -8939,15 +8941,15 @@ body.fixed-header .page {
 }
 
 .expanel-default>.expanel-heading {
-    background-color: var(--primary005) !important;
+    background-color: var(--primary005);
     border-color: #f6f6fb !important;
 }
 
 .expanel-heading {
     padding: 10px 15px !important;
     border-bottom: 1px solid #e9edf4;
-    border-top-left-radius: 3px !important;
-    border-top-right-radius: 3px !important;
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
 }
 
 .expanel-footer {

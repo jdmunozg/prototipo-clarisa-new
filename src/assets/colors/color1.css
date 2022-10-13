@@ -352,7 +352,7 @@ a.text-primary:focus {
 }
 
 .panel-title1 a {
-    background: var(--primary-bg-color) !important;
+    background: var(--primary-bg-color) ;
 }
 
 .btn.dropdown-toggle.btn-primary~.dropdown-menu .dropdown-plus-title {
